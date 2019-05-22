@@ -12,4 +12,5 @@ docker run -it \
        -e AWS_SESSION_TOKEN \
        -e AWS_SECURITY_TOKEN \
        -e AWS_PROFILE \
+       -e TF_LOG \
        terraform:latest terraform $@
